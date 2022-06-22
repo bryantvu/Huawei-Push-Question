@@ -9,11 +9,11 @@ Is it possible to have multiple app IDs for single package name (e.g.  `app1-pac
 
 Current server side configuration: 
 
-Settings("`app1-package-name`", "`app1-app-id`", "xxxSECRETxxx"); 
-Settings("`app2-package-name`", "`app2-app-id`", "xxxSECRETxxx"); 
+- Settings("`app1-package-name`", "`app1-app-id`", "xxxSECRETxxx"); 
+- Settings("`app2-package-name`", "`app2-app-id`", "xxxSECRETxxx"); 
 
 Desired server side configuration: 
-Settings("`app1-package-name`", "`app1-app-id`", "xxxSECRETxxx"); 
-Settings("`app1-package-name`", "newIdForTest", "xxxSECRETxxx"); 
-Settings("`app2-package-name`", "`app2-app-id`", "xxxSECRETxxx"); 
-Settings("`app2-package-name`", "newIdForTest", "xxxSECRETxxx");
+- Settings("`app1-package-name`", "`app1-app-id`", "xxxSECRETxxx"); 
+- Settings("`app1-package-name`", "newIdForTest", "xxxSECRETxxx"); 
+- Settings("`app2-package-name`", "`app2-app-id`", "xxxSECRETxxx"); 
+- Settings("`app2-package-name`", "newIdForTest", "xxxSECRETxxx");
